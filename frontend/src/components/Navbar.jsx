@@ -19,6 +19,9 @@ function Navbar() {
         <li className="nav-item">
           <Link to='/about' className='nav-link active'>About</Link>
         </li>
+        <li className="nav-item ">
+          <Link to='/submit' className='nav-link active text-light btn btn-primary'>Create</Link>
+        </li>
     </ul>
     </div>
 </nav>

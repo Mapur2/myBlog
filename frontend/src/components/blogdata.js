@@ -13,7 +13,7 @@ function blogdata(blogs) {
     .then((res)=>res.json())
     .then((res)=>{
       setData(res)})
-  },[blogs])
+  },[data])
   return data
 }
 

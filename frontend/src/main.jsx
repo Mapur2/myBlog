@@ -6,6 +6,7 @@ import { Route, Router, RouterProvider, createBrowserRouter, createRoutesFromEle
 import Content from './components/Content.jsx'
 import Blogs from './components/Blogs.jsx'
 import About from './components/About.jsx'
+import SubmitBlog from './components/SubmitBlog.jsx'
 
 
 const router=createBrowserRouter(
@@ -13,6 +14,7 @@ const router=createBrowserRouter(
     <Route path='/' element={<App/>} >
       <Route path='' element={<Content/>}/>
       <Route path='/blogs/:id' element={<Blogs/>} />
+      <Route path='/submit' element={<SubmitBlog />} />
       <Route path='/about' element={<About/>}/>
     </Route>
     )

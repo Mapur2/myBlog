@@ -1,24 +1,8 @@
-module.exports=[
-    {
-        pic:"https://media.geeksforgeeks.org/wp-content/uploads/20230627113746/DSA-full-form.png",
-        head:"How I solve DSA",
-        cap:"Always think simple..",
-        text:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores rem modi accusamus accusantium ratione. Odit ipsum odio, quod obcaecati error voluptatem dolores suscipit repellat neque? Veritatis minus dolorem ad?'
-        ,id:1
-    },
-    {
-        pic:"https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-600nw-1029506242.jpg",
-        head:"Pointers",
-        cap:"Makes this way more..",
-        text:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores rem modi accusamus accusantium ratione. Odit ipsum odio, quod obcaecati error voluptatem dolores suscipit repellat neque? Veritatis minus dolorem ad?'
-        ,id:2
-    },
-    {
-        pic:"https://imgeng.jagran.com/images/2023/aug/chandrayaan-31692794219399.jpeg",
-        head:"Chandrayan",
-        cap:"Mission possible",
-        text:"Chandrayaan-3 is a follow-on mission to Chandrayaan-2 to demonstrate end-to-end capability in safe landing and roving on the lunar surface. It consists of Lander and Rover configuration. It will be launched by LVM3 from SDSC SHAR, Sriharikota. The propulsion module will carry the lander and rover configuration till 100 km lunar orbit. The propulsion module has Spectro-polarimetry of Habitable Planet Earth (SHAPE) payload to study the spectral and Polari metric measurements of Earth from the lunar orbit."
-        ,id:3
-    }
-]
-
+let data=[{pic:"https://media.geeksforgeeks.org/wp-content/uploads/20230627113746/DSA-full-form.png",head:"How I solve DSA",text:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores rem modi accusamus accusantium ratione. Odit ipsum odio, quod obcaecati error voluptatem dolores suscipit repellat neque? Veritatis minus dolorem ad?",cap:"Always think simple..",id:1},
+{pic:"https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-600nw-1029506242.jpg",head:"Pointers",text:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores rem modi accusamus accusantium ratione. Odit ipsum odio, quod obcaecati error voluptatem dolores suscipit repellat neque? Veritatis minus dolorem ad?",cap:"Makes this way more..",id:2},
+{pic:"https://imgeng.jagran.com/images/2023/aug/chandrayaan-31692794219399.jpeg",head:"Chandrayan",text:"Chandrayaan-3 is a follow-on mission to Chandrayaan-2 to demonstrate end-to-end capability in safe landing and roving on the lunar surface. It consists of Lander and Rover configuration. It will be launched by LVM3 from SDSC SHAR, Sriharikota. The propulsion module will carry the lander and rover configuration till 100 km lunar orbit. The propulsion module has Spectro-polarimetry of Habitable Planet Earth (SHAPE) payload to study the spectral and Polari metric measurements of Earth from the lunar orbit.",cap:"Mission possible",id:3},
+{pic:"https://buffer.com/resources/content/images/size/w2000/format/avif/2022/05/anete-lusina-zwsHjakE_iI-unsplash.jpg",head:"From google",text:"You’ve probably never envisioned yourself as a blogger. After all, you’re a small business owner, and probably not a trained writer. But you don’t have to be the perfect wordsmith to write compelling and engaging posts. Creating a successful blog really just requires being passionate about a certain topic — a characteristic you already possess as an ambitious entrepreneur! A blog can also be a low-cost way to elevate your small business’s reach and also build credibility with your followers, making it a win-win situation.",cap:"caption",id:4},
+{pic:"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Trailer_Alt_YouTube_Thumbnail_1_.width-1000.format-webp.webp",head:"Discounts and prizes for small business heroes",text:"Google has exclusive small business offers for International Small Business Week and a sweepstakes for small businesses to win cash prizes.",cap:"caption",id:5},
+{pic:"https://miro.medium.com/v2/resize:fit:828/format:webp/1*CWM5omSsQVUpMREJwHQUzQ.jpeg",head:"Resources to master Data Structures and Algorithms!",text:"Hey everyone, I will be joining Amazon as Software Development Engineering Intern for 6 months from February 2021. In this article, I have shared all the important resources which I followed to make a good command on Data Structures and Algorithms.Acronyms: DSA — Data Structures and Algorithms First of all the websites, I followed: LeetCode — Best website for practicing DSA questions, good user interface, the discussion section is awesome :) GeeksforGeeks — Treasure for the Computer Science students, one can get all the questions with their possible solutions and can also practice here. Techie Delight — A simplistic website made only for learning DSA. Rest other websites to which you can refer are InterviewBit & Educative.io.",cap:"DS Algo, Open Source, Programming, etc.",id:6},
+] 
+ module.exports=data
