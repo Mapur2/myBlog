@@ -60,7 +60,7 @@ function SubmitBlog() {
 
         <label htmlFor="formGroupExampleInput2" className="form-label">Image URL</label>
         <input
-          type="Text" className="form-control"
+          type="text" className="form-control"
           id="formGroupExampleInput2"
           placeholder="Your Image url"
           onChange={e => setImage(e.target.value)}
