@@ -4,7 +4,7 @@ function blogdata(blogs) {
     const [data,setData]=useState([])
 
   useEffect(()=>{
-    fetch('http://localhost:5000/blogs',{
+    fetch('https://myblog-ew7e.onrender.com/blogs',{
         method:'GET',
         headers:{
               "Content-Type":"application/json",
