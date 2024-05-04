@@ -11,7 +11,7 @@ function SubmitBlog() {
     if(Head=="" && Image=="" && Text=="")
       alert("Please fill all the details")
     else{
-    fetch("http://localhost:5000/blogs/posts",
+    fetch("https://myblog-ew7e.onrender.com/posts",
       {
         headers: {
           'Accept': 'application/json',
